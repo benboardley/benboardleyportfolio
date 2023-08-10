@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/benboardleyportfolio/static/css/main.8bbf9b73.css",
-    "main.js": "/benboardleyportfolio/static/js/main.c449cab4.js",
+    "main.css": "/benboardleyportfolio/static/css/main.199029f2.css",
+    "main.js": "/benboardleyportfolio/static/js/main.c7e80781.js",
     "static/js/787.4619ed62.chunk.js": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js",
     "static/media/background.jpg": "/benboardleyportfolio/static/media/background.4260d353abebbd911e32.jpg",
+    "static/media/benboardley.jpg": "/benboardleyportfolio/static/media/benboardley.486b3baf5790f7421eed.jpg",
     "static/media/compmodel2.png": "/benboardleyportfolio/static/media/compmodel2.dec1357ec952ffe8c2a9.png",
     "static/media/fullstack.png": "/benboardleyportfolio/static/media/fullstack.5c105bde5b827e016410.png",
-    "static/media/Resume.pdf": "/benboardleyportfolio/static/media/Resume.db92c37f23138bde748e.pdf",
-    "static/media/benboardley.jpg": "/benboardleyportfolio/static/media/benboardley.e51b81eb85b8d0f871d4.jpg",
+    "static/media/Resume.pdf": "/benboardleyportfolio/static/media/Resume.1a8e0a8fd054df3408b2.pdf",
     "static/media/lpcvai.jpg": "/benboardleyportfolio/static/media/lpcvai.169890dd3153ba6ac46a.jpg",
     "static/media/machinelearning.jpg": "/benboardleyportfolio/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
     "static/media/logo.svg": "/benboardleyportfolio/static/media/logo.b4073c5b3aa39d900e73c04e277af2b9.svg",
     "index.html": "/benboardleyportfolio/index.html",
-    "main.8bbf9b73.css.map": "/benboardleyportfolio/static/css/main.8bbf9b73.css.map",
-    "main.c449cab4.js.map": "/benboardleyportfolio/static/js/main.c449cab4.js.map",
+    "main.199029f2.css.map": "/benboardleyportfolio/static/css/main.199029f2.css.map",
+    "main.c7e80781.js.map": "/benboardleyportfolio/static/js/main.c7e80781.js.map",
     "787.4619ed62.chunk.js.map": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bbf9b73.css",
-    "static/js/main.c449cab4.js"
+    "static/css/main.199029f2.css",
+    "static/js/main.c7e80781.js"
   ]
 }
