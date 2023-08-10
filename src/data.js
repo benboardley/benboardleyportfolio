@@ -26,8 +26,9 @@ export const projects = [
     {
         title: "Compressible Flow",
         subtitle: "Web Calculator",
-        description: "Built a calculator for a post doctorate's thesis",
-        skills: "Web Development, Java Script, HTML, CSS, Python (pyscript)",
+        description: "I created a web application on my own to promote a researcher's publication. The main feature was a calculator that computed compressible flow using a closed-form solution. \
+        Although the app had to run in the user's browser, the math behind it was written in Python, which the researcher was familiar with. To make this work, I used 'pyscript'. \
+        This tool let me embed Python code in the website's HTML, and then it converted that Python into Web Assembly for smoother web performance.",
         image: compmodel,
         link: "https://benboardley.github.io/quasi-one/"
     },
