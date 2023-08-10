@@ -1,6 +1,6 @@
 import lpcvai from './lpcvai.jpg';
 import fullstack from './fullstack.png'
-import compmodel from './compmodel.jpg'
+import compmodel from './compmodel2.png'
 import machinelearning from './machinelearning.jpg'
 export const projects = [
     {
@@ -20,12 +20,12 @@ export const projects = [
         link: ""
     }, */
     {
-        title: "computational model",
-        subtitle: "calculator",
+        title: "Compressible Flow",
+        subtitle: "Web Calculator",
         description: "Built a calculator for a post doctorate's thesis",
-        skills: "",
+        skills: "Web Development, Java Script, HTML, CSS, Python (pyscript)",
         image: compmodel,
-        link: ""
+        link: "https://benboardley.github.io/quasi-one/"
     },
  /*   {
         title: "Machine Learning",

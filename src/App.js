@@ -42,9 +42,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="backdrop-blur-sm">
-          <div id="BenBoardley" className="mt-5 justify-center">
-            <div className=" flex" data-aos="fade-up">
+      <div className="backdrop-blur-sm mt-5">
+          <div id="BenBoardley" className="mt-5 justify-center" data-aos="fade-up">
+            <div className=" flex">
               <About />
             </div>
             <Projects/>
