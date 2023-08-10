@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/benboardleyportfolio/static/css/main.ec002436.css",
+    "main.js": "/benboardleyportfolio/static/js/main.c419d8e4.js",
+    "static/js/787.4619ed62.chunk.js": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js",
+    "static/media/compmodel.jpg": "/benboardleyportfolio/static/media/compmodel.2302601fcfde03256a06.jpg",
+    "static/media/fullstack.png": "/benboardleyportfolio/static/media/fullstack.5c105bde5b827e016410.png",
+    "static/media/background.jpg": "/benboardleyportfolio/static/media/background.9b6b9967b0956f708445.jpg",
+    "static/media/Resume.pdf": "/benboardleyportfolio/static/media/Resume.db92c37f23138bde748e.pdf",
+    "static/media/benboardley.jpg": "/benboardleyportfolio/static/media/benboardley.e51b81eb85b8d0f871d4.jpg",
+    "static/media/lpcvai.jpg": "/benboardleyportfolio/static/media/lpcvai.169890dd3153ba6ac46a.jpg",
+    "static/media/machinelearning.jpg": "/benboardleyportfolio/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
+    "static/media/logo.svg": "/benboardleyportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/benboardleyportfolio/index.html",
+    "main.ec002436.css.map": "/benboardleyportfolio/static/css/main.ec002436.css.map",
+    "main.c419d8e4.js.map": "/benboardleyportfolio/static/js/main.c419d8e4.js.map",
+    "787.4619ed62.chunk.js.map": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec002436.css",
+    "static/js/main.c419d8e4.js"
+  ]
+}
