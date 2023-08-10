@@ -6,7 +6,11 @@ export const projects = [
     {
         title: "Low Power Computer Vision Competition 2023",
         subtitle: "Team Lead",
-        description: "I was the lead backend organizer for a Semantic Segmentation competition for edge (low powered) devices. During this project, I developed a backend infrastructure and submission evaluation pipeline that was able to autonomously evaluate submissions of over 100 participants.The infrastructure consisted of  two different servers, a web server and an evaluation server. I set up the evaluation server on a Nvidia 2GB Jetson Nano so we could evaluate the solutions using the GPU. We used this pipline to score and update a real-time leaderboard based on the metrics of Mean Dice and Execution Time.",
+        description: "I spearheaded the backend architecture and orchestration for a Semantic Segmentation challenge specifically tailored for edge computing devices with constrained computational resources.\
+         In the course of this initiative, I engineered a backend infrastructure coupled with an automated submission evaluation pipeline. This pipeline was adept at autonomously processing and evaluating the solutions\
+        from an excess of 600 submissions across 60 teams. The infrastructure was composed of two distinct server environments: a web server to manage front-end interactions and an evaluation server dedicated to intensive computational tasks.\
+        For the latter, I leveraged an Nvidia Jetson Nano 2GB, capitalizing on its GPU capabilities to enhance the evaluation process. \
+        This integrated pipeline facilitated real-time scoring, enabling us to dynamically update a leaderboard grounded on the parameters of Mean Dice Coefficient and Execution Latency.",
         skills: "System Development, Management, Python, Shell",
         image: lpcvai,
         link: "https://lpcv.ai"
