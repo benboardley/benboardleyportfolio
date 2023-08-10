@@ -2,6 +2,8 @@ import lpcvai from './lpcvai.jpg';
 import fullstack from './fullstack.png'
 import compmodel from './compmodel2.png'
 import machinelearning from './machinelearning.jpg'
+import running from './running.jpg'
+import basketball from './basketball.jpg'
 export const projects = [
     {
         title: "Low Power Computer Vision Competition 2023",
@@ -26,9 +28,10 @@ export const projects = [
     {
         title: "Compressible Flow",
         subtitle: "Web Calculator",
-        description: "I created a web application on my own to promote a researcher's publication. The main feature was a calculator that computed compressible flow using a closed-form solution. \
+        description:"I created a web application to promote a researcher's publication. The main feature was a calculator that computed compressible flow using a closed-form solution. \
         Although the app had to run in the user's browser, the math behind it was written in Python, which the researcher was familiar with. To make this work, I used 'pyscript'. \
         This tool let me embed Python code in the website's HTML, and then it converted that Python into Web Assembly for smoother web performance.",
+        skills: "Web Development, Java Script, HTML, CSS, Python (pyscript)",
         image: compmodel,
         link: "https://benboardley.github.io/quasi-one/"
     },
@@ -83,16 +86,16 @@ export const skills = [
         //level: "Currently Learning"
     },
     {
-        skill: "Computational Modeling",
-        //level: "Currently Learning"
-    },
-    {
         skill: "Computer Security",
         //level: "Intermediate"
     },
     {
         skill: "Data Mining",
         //level: "Intermediate"
+    },
+    {
+        skill: "Network",
+        //level: "Currently Learning"
     },
 ]
 
@@ -148,4 +151,18 @@ export const upcomingClasses = [
         language: "C++",
         syllabus: ""
     }
+]
+
+export const hobbies = [
+    {
+        Hobby: "Running",
+        Image: running,
+        Description: "I have been an avid runner my entire life. I ran High School Track and Cross Country, and just this past winter I ran the Indianapolis Half Marathon. This upcoming Fall I will be running the the Indianapolis Full Marathon. \
+        Follow Me on Strava!"
+    },
+    {
+        Hobby: "Basketball",
+        Image: basketball,
+        Description: "Basketball has always been one of my favorite sports to play. I currently play Intramural basketball at Purdue."
+    },
 ]

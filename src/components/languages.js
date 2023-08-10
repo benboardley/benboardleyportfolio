@@ -11,7 +11,7 @@ export default function Languages() {
             {
                 languages.map((language)=>(
                     <div id={language.skill} className="w-25 bg-gray-600 rounded-lg  hover:bg-gray-200 transition-colors duration-200 shadow-lg p-5 mb-4 text-center items-center justify-center">
-                        <span className="text-lg md:text-xl text-white font-bold mb-2">{language.skill}</span>
+                        <span className="text-sm md:text-sm text-white font-bold mb-2">{language.skill}</span>
                         <br></br>
                         <span className= "text-white text-xs md:text-sm">{language.level}</span>
                     </div>

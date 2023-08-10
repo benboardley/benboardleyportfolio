@@ -11,7 +11,7 @@ export default function Languages() {
             {
                 skills.map((skill)=>(
                     <div id={skill.skill} className="w-25 bg-gradient-to-r bg-gray-600 rounded-lg  hover:bg-gray-200 transition-colors duration-200 shadow-lg p-5 mb-4 text-center items-center justify-center">
-                        <span className="text-lg md:text-xl text-white font-bold mb-2">{skill.skill}</span>
+                        <span className="text-sm md:text-sm text-white font-bold mb-2">{skill.skill}</span>
                     </div>
                 ))
             }

@@ -9,6 +9,7 @@ import Skills from "./components/skills"
 import Classes from "./components/classes"
 import Resume from "./components/resume"
 import background from "./background.jpg"
+import Blog from "./components/blog"
 import Contact from "./components/contact"
 import 'aos/dist/aos.css';  // <- AOS styles
 import AOS from 'aos';
@@ -22,7 +23,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="bg-[url('background.jpg')] bg-cover  bg-center min-h-screen m-0 bg-fixed">
+    <div className="bg-[url('background.jpg')] bg-cover  bg-center min-h-screen m-0 bg-fixed font-serif">
       <NavBar setActiveComponent={setActiveComponent} className="fixed top-0 z-10 w-full" />
       <main className="text-white pt-500 flex flex-col">
       <div className="h-3/4 w-3/4 relative overflow-hidden rounded-lg text-left justify-start float-left mt-40 ml-20" data-aos="fade-up">
@@ -36,37 +37,55 @@ function App() {
                 className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-sm font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
                 data-te-ripple-init
                 data-te-ripple-color="light">
-                Get in Contact
+                <a href="#contact">Get in Contact</a>
               </button>
             </div>
           </div>
         </div>
       </div>
       <div className="backdrop-blur-sm mt-5">
-          <div id="BenBoardley" className="mt-5 justify-center" data-aos="fade-up">
-            <div className=" flex">
-              <About />
+      { activeComponent === "blog" && (
+            <div id="blog">
+              <Blog />
             </div>
-            <Projects/>
-          </div>
-          <div id="skills" className='flex justify-center items-center' data-aos="fade-up">
-            <Languages />
-            <Skills />
-          </div>
-      
-        <div id="classes" data-aos="fade-up">
-          <Classes />
-        </div>
-        
-        { activeComponent === "Resume" && (
-        <div id="Resume">
-          <Resume />
-        </div>
-        )}
-        <div id="contact" data-aos="fade-up">
-          <Contact />
-        </div>
-      </div>
+          )}
+          { activeComponent === "BenBoardley" && (
+            <div>
+              {/* This is the Ben Boardley section */}
+              <div id="BenBoardley" className="mt-5 justify-center" data-aos="fade-up">
+                <div className=" flex">
+                  <About/>
+                </div>
+                <Projects id = "projects" data-aos="fade-up"/>
+              </div>
+              <div id="education">
+              {/*<div className="ml-40">
+                <h1 className = " underline text-2xl">Education</h1>
+                <p>I will be finishing my undergraduate degree in Computer Engineering at Purdue University in the spring of 2024. 
+                  After this I will be pursuing a Masters of ECE to be complete in the Spring of 2025. My current academic focus converges on two major areas of interest: Software Engineering and Machine Learning.</p>
+          </div>*/}
+              <div id="skills" className='flex justify-center items-center' data-aos="fade-up">
+                <Languages />
+                <Skills />
+              </div>
+          
+              <div id="classes" data-aos="fade-up">
+                <Classes />
+              </div>
+              </div>
+              <div id="contact" data-aos="fade-up">
+                <Contact />
+              </div>
+            </div>
+          )}
+
+          { activeComponent === "Resume" && (
+            <div id="Resume">
+              <Resume />
+            </div>
+          )}
+    </div>
+
       </main>
     </div>
   );

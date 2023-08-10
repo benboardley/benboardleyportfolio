@@ -13,9 +13,9 @@ export default function Languages() {
                 {
                     relevantClasses.map((classwork)=>(
                         <div id={classwork.class} className=" border boreder-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
-                            <span className="text-lg md:text-xl text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-sm md:text-xl text-gray mb-2">Language: {classwork.language}</span><br></br>
-                            <span className="text-sm md:text-xl text-gray mb-2">{classwork.description}</span><br></br>
+                            <span className="text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }
@@ -24,11 +24,11 @@ export default function Languages() {
                 <p className="text-sm md:text-base text-white">UpComing Course Work</p>
                 {
                     upcomingClasses.map((classwork)=>(
-                        <div id={classwork.class} className=" border boreder-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
-                            <span className="text-lg md:text-xl text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-sm md:text-xl text-gray mb-2">Language: {classwork.language}</span><br></br>
-                            <span className="text-sm md:text-xl text-gray mb-2"></span>
-                            <span className="text-sm md:text-xl text-gray mb-2">{classwork.description}</span><br></br>
+                        <div id={classwork.class} className=" border border-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
+                            <span className="text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-sm text-gray mb-2"></span>
+                            <span className="text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }
