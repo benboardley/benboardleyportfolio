@@ -22,7 +22,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="bg-[url('background.jpg')] min-h-screen m-0 bg-fixed">
+    <div className="bg-[url('background.jpg')] bg-cover  bg-center min-h-screen m-0 bg-fixed">
       <NavBar setActiveComponent={setActiveComponent} className="fixed top-0 z-10 w-full" />
       <main className="text-white pt-500 flex flex-col">
       <div className="h-3/4 w-3/4 relative overflow-hidden rounded-lg text-left justify-start float-left mt-40 ml-20" data-aos="fade-up">
@@ -42,7 +42,8 @@ function App() {
           </div>
         </div>
       </div>
-          <div id="BenBoardley" className="pt-5 justify-center">
+      <div className="backdrop-blur-sm">
+          <div id="BenBoardley" className="mt-5 justify-center">
             <div className=" flex" data-aos="fade-up">
               <About />
             </div>
@@ -65,6 +66,7 @@ function App() {
         <div id="contact" data-aos="fade-up">
           <Contact />
         </div>
+      </div>
       </main>
     </div>
   );
