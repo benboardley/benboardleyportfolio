@@ -11,6 +11,8 @@ import Resume from "./components/resume"
 import background from "./background.jpg"
 import Blog from "./components/blog"
 import Contact from "./components/contact"
+import Education from './components/education';
+import LangAndSkill from './components/langandskill';
 import 'aos/dist/aos.css';  // <- AOS styles
 import AOS from 'aos';
 
@@ -51,29 +53,31 @@ function App() {
             </div>
           )}
           { activeComponent === "BenBoardley" && (
-            <div>
+            <div className='flex flex-col'>
               {/* This is the Ben Boardley section */}
               <div id="BenBoardley" className="mt-5 justify-center" data-aos="fade-up">
                 <div className=" flex">
                   <About/>
                 </div>
-                <Projects id = "projects" data-aos="fade-up"/>
               </div>
               <div id="education">
+              <LangAndSkill />
+              <Education />
               {/*<div className="ml-40">
                 <h1 className = " underline text-2xl">Education</h1>
                 <p>I will be finishing my undergraduate degree in Computer Engineering at Purdue University in the spring of 2024. 
                   After this I will be pursuing a Masters of ECE to be complete in the Spring of 2025. My current academic focus converges on two major areas of interest: Software Engineering and Machine Learning.</p>
           </div>*/}
-              <div id="skills" className='flex justify-center items-center' data-aos="fade-up">
+              {/*<div id="skills" className='flex justify-center items-center' data-aos="fade-up">
                 <Languages />
                 <Skills />
               </div>
           
               <div id="classes" data-aos="fade-up">
                 <Classes />
+              </div>*/}
               </div>
-              </div>
+              <Projects id = "projects" data-aos="fade-up"/>
               <div id="contact" data-aos="fade-up" className='flex justify-center items-center'>
                 <Contact />
               </div>

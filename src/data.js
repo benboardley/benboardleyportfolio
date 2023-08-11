@@ -4,6 +4,7 @@ import compmodel from './compmodel2.png'
 import machinelearning from './machinelearning.jpg'
 import running from './running.jpg'
 import basketball from './basketball.jpg'
+import purdue from './purdue.jpg'
 export const projects = [
     {
         title: "Low Power Computer Vision Competition 2023",
@@ -101,25 +102,25 @@ export const skills = [
 
 export const relevantClasses = [
     {
-        class: "Data Structures and Algorithms",
+        class: "ECE 368 Data Structures and Algorithms",
         language: "C",
         grade: "A",
        // description: "Used creativity and problem solving so solve complex problems in a time and space efficient manner using data structures"
     },
     {
-        class: "Computer Security",
+        class: "ECE 404 Computer Security",
         language: "Python",
         grade: "A+",
        // description: "Implemented and learned about various Security protocols using AES, 3DES, Public Key Cryptography, and Firewalls"
     },
     {
-        class: "Python for Data Science",
+        class: "ECE 20875 Python for Data Science",
         language: "Python",
         grade: "A",
        // description: "Researched data science libraries such as numpy, sklearn, matplotlib and keras to solve complex data science problems"
     },
     {
-        class: "Software Engineering Tools",
+        class: "ECE 395 Software Engineering Tools",
         language: "Python, JavaScript, HTML, CSS, SQL",
         grade: "A",
        // description: "Learned how to use important software development tools and frameworks such as Flask, Electron, GCP, SQL and Jira"
@@ -132,22 +133,22 @@ export const relevantClasses = [
 
 export const upcomingClasses = [
     {
-        class: "Artificial Intelligence",
+        class: "ECE 570 Artificial Intelligence",
         language: "Python",
         syllabus: ""
     },
     {
-        class: "Software Engineering",
+        class: "ECE 461 Software Engineering",
         language: "Python, JavaScript, Rust",
         syllabus: ""
     },
     {
-        class: "Intro to Data Mining",
+        class: "ECE 595 Intro to Data Mining",
         language: "Python",
         syllabus: ""
     },
     {
-        class: "Object Oriented Programming",
+        class: "ECE 30862 Object Oriented Programming",
         language: "C++",
         syllabus: ""
     }
@@ -164,5 +165,22 @@ export const hobbies = [
         Hobby: "Basketball",
         Image: basketball,
         Description: "Basketball has always been one of my favorite sports to play. I currently play Intramural basketball at Purdue."
+    },
+]
+
+export const education = [
+    {
+        degree: "Bachelor of Science",
+        major: "Computer Engineering",
+        image: purdue,
+        GPA: "3.94",
+        years: "2021-2024"
+    },
+    {
+        degree: "Master of Science",
+        major: "Computer Engineering",
+        image: purdue,
+        GPA: "-",
+        years: "2023-2025"
     },
 ]
