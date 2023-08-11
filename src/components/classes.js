@@ -12,10 +12,10 @@ export default function Languages() {
                 <p className="text-sm md:text-base text-white">Completed Course Work</p>
                 {
                     relevantClasses.map((classwork)=>(
-                        <div id={classwork.class} className=" border boreder-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
-                            <span className="text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
-                            <span className="text-sm text-gray mb-2">{classwork.description}</span><br></br>
+                        <div id={classwork.class} className=" h-1/4 border boreder-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
+                            <span className="text-xs sm:text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-xs sm:text-sm-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-xs sm:text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }
@@ -24,11 +24,11 @@ export default function Languages() {
                 <p className="text-sm md:text-base text-white">UpComing Course Work</p>
                 {
                     upcomingClasses.map((classwork)=>(
-                        <div id={classwork.class} className=" border border-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
-                            <span className="text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
-                            <span className="text-sm text-gray mb-2"></span>
-                            <span className="text-sm text-gray mb-2">{classwork.description}</span><br></br>
+                        <div id={classwork.class} className="h-1/4 border border-white border-rounded shadow-lg p-5 mb-4 text-center items-center justify-center">
+                            <span className="text-xs sm:text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-xs sm:text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-xs sm:text-sm text-gray mb-2"></span>
+                            <span className="text-xs sm:text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }

@@ -5,15 +5,15 @@ import { hobbies } from "../data";
 function About(){
   const [showMore, setShowMore] = useState(false);
   return (
-    <div className=" m-10 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md m-0 p-0 flex flex-col bg-opacity-70">
-      <div className="flex flex-row">
+    <div className=" sm:m-10 m-3 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md p-0 flex flex-col sm:flex-row bg-opacity-70">
+      <div className="flex flex-col md:flex-row">
       <div className="mb-4 flex-grow-0 flex-shrink-0 flex flex-col items-center align-middle justify-center">
         <h1 className="text-2xl font-bold underline">
           About Me
         </h1>
         <img src={benboardley} className="w-1/4 sm:w-1/4 md:w-1/4 lg:w-1/4 object-cover"/>
       </div>
-      <div className="text-white text-center flex-grow  content-center px-2">
+      <div className="text-white text-center text-xs sm:text-lg flex-grow  content-center px-2">
         <h2 className = "font-bold">Ambition and Passions</h2>
         I will be finishing my undergraduate degree in Computer Engineering at Purdue University in the spring of 2024. After this I will be pursuing a Masters of ECE to be complete in the Spring of 2025.
 
@@ -39,13 +39,13 @@ function About(){
           Hobbies
         </h1>
           {/* Add more about your hobbies and any other info you'd like to display here */}
-          <div className="flex flex-row">
+          <div className="flex flex-col sm:flex-row">
             {
               hobbies.map((hobbie) => (
-                <div className="flex flex-row mb-3 justify-end">
+                <div className="flex flex-col sm:flex-row mb-3 justify-end">
                   <img
                   alt="gallery"
-                  className="w-1/8 object-center opacity-70"
+                  className="w-1/2 sm:w-1/8 object-center opacity-70"
                   src={hobbie.Image}
                 />
                 <p className="leading-relaxed">{hobbie.Description}</p>

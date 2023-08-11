@@ -73,7 +73,7 @@ function App() {
                 <Classes />
               </div>
               </div>
-              <div id="contact" data-aos="fade-up">
+              <div id="contact" data-aos="fade-up" className='flex justify-center items-center'>
                 <Contact />
               </div>
             </div>
