@@ -22,8 +22,9 @@ function App() {
       once: true,
     });
   }, []);
+  //bg-[url('background.jpg')] bg-cover  bg-center m-0 bg-fixed min-h-screen
   return (
-    <div className="bg-[url('background.jpg')] bg-cover  bg-center min-h-screen m-0 bg-fixed font-serif">
+    <div className="font-serif">
       <NavBar setActiveComponent={setActiveComponent} className="fixed top-0 z-10 w-full" />
       <main className="text-white pt-500 flex flex-col">
       <div className="h-3/4 w-3/4 relative overflow-hidden rounded-lg text-left justify-start float-left mt-40 ml-20" data-aos="fade-up">

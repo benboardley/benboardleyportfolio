@@ -42,3 +42,16 @@
     transform: rotate(360deg);
   }
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0; 
+  z-index: -1;
+  background-image: url('./background.jpg'); /* Adjust the path to your background image accordingly */
+  background-size: cover;
+  background-position: center;
+}
