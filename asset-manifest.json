@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/benboardleyportfolio/static/css/main.7bf6e093.css",
-    "main.js": "/benboardleyportfolio/static/js/main.69fb1bc5.js",
+    "main.js": "/benboardleyportfolio/static/js/main.69d5bbc4.js",
     "static/js/787.4619ed62.chunk.js": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js",
     "static/media/basketball.jpg": "/benboardleyportfolio/static/media/basketball.10ca22d5cb1620b3cd8a.jpg",
     "static/media/background.jpg": "/benboardleyportfolio/static/media/background.4260d353abebbd911e32.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/benboardleyportfolio/static/media/logo.b4073c5b3aa39d900e73c04e277af2b9.svg",
     "index.html": "/benboardleyportfolio/index.html",
     "main.7bf6e093.css.map": "/benboardleyportfolio/static/css/main.7bf6e093.css.map",
-    "main.69fb1bc5.js.map": "/benboardleyportfolio/static/js/main.69fb1bc5.js.map",
+    "main.69d5bbc4.js.map": "/benboardleyportfolio/static/js/main.69d5bbc4.js.map",
     "787.4619ed62.chunk.js.map": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf6e093.css",
-    "static/js/main.69fb1bc5.js"
+    "static/js/main.69d5bbc4.js"
   ]
 }
