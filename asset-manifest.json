@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/benboardleyportfolio/static/css/main.7bf6e093.css",
-    "main.js": "/benboardleyportfolio/static/js/main.69d5bbc4.js",
+    "main.css": "/benboardleyportfolio/static/css/main.7ea56cb0.css",
+    "main.js": "/benboardleyportfolio/static/js/main.a42d805e.js",
     "static/js/787.4619ed62.chunk.js": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js",
     "static/media/basketball.jpg": "/benboardleyportfolio/static/media/basketball.10ca22d5cb1620b3cd8a.jpg",
     "static/media/background.jpg": "/benboardleyportfolio/static/media/background.4260d353abebbd911e32.jpg",
@@ -14,12 +14,12 @@
     "static/media/machinelearning.jpg": "/benboardleyportfolio/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
     "static/media/logo.svg": "/benboardleyportfolio/static/media/logo.b4073c5b3aa39d900e73c04e277af2b9.svg",
     "index.html": "/benboardleyportfolio/index.html",
-    "main.7bf6e093.css.map": "/benboardleyportfolio/static/css/main.7bf6e093.css.map",
-    "main.69d5bbc4.js.map": "/benboardleyportfolio/static/js/main.69d5bbc4.js.map",
+    "main.7ea56cb0.css.map": "/benboardleyportfolio/static/css/main.7ea56cb0.css.map",
+    "main.a42d805e.js.map": "/benboardleyportfolio/static/js/main.a42d805e.js.map",
     "787.4619ed62.chunk.js.map": "/benboardleyportfolio/static/js/787.4619ed62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bf6e093.css",
-    "static/js/main.69d5bbc4.js"
+    "static/css/main.7ea56cb0.css",
+    "static/js/main.a42d805e.js"
   ]
 }
