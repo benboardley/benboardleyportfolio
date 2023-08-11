@@ -10,23 +10,18 @@ const NavBar = ({ setActiveComponent }) => {
                 </a>
                 </div>
                 <div onClick={() => setActiveComponent("BenBoardley")} className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                    <a href="#projects" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                        Projects
+                    <a href="#education" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
+                        Education
                     </a>
                 </div>
                 <div onClick={() => setActiveComponent("BenBoardley")} className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                    <a href="#skills" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                        Skills
+                    <a href="#projects" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
+                        Projects
                     </a>
                 </div>
                 <div onClick={() => setActiveComponent("Resume")} className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
                     <a href="#Resume" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
                         Resume
-                    </a>
-                </div>
-                <div onClick={() => setActiveComponent("BenBoardley")} className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                    <a href="#classes" className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">
-                        Relevant Courses
                     </a>
                 </div>
                 <div onClick={() => setActiveComponent("BenBoardley")} className="px-4 py-2 text-2xl font-bold hover:bg-white hover:text-gray-600 cursor-pointer transition-colors duration-200 rounded">

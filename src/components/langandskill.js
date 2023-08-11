@@ -3,10 +3,10 @@ import { skills } from "../data";
 import { languages } from "../data";
 import { relevantClasses, upcomingClasses } from "../data";
 export default function LangAndSkill() {
-    return(<section className=" sm:m-10 m-3 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md p-0 flex flex-col sm:flex-col bg-opacity-70 float-left pr-2">
-        <div className="flex flex-row">
+    return(<section className=" lg:m-10 m-3 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md p-0 flex flex-col sm:flex-col bg-opacity-70 lg:float-left pr-2">
+        <div className="flex flex-row justify-center">
             <div className="flex flex-col">
-            <h1 className= "text-white text-xl md:text-xl mb-4 font-bold">Languages</h1>
+            <h1 className= "text-white text-xl md:text-xl mb-4 font-bold underline">Languages</h1>
             {
 
                 languages.map((language)=>(
@@ -18,7 +18,7 @@ export default function LangAndSkill() {
             </div>
             
             <div className="flex flex-col">
-            <h1 className= "text-white text-xl md:text-xl mb-4 font-bold">Skills</h1>
+            <h1 className= "text-white text-xl md:text-xl mb-4 font-bold underline">Skills</h1>
             {
                 skills.map((skill)=>(
                     <div id={skill.skill} className="w-1/3 sm:w-1/4">
@@ -29,10 +29,10 @@ export default function LangAndSkill() {
             </div>
         </div>
         <div className="container text-gray px-5 py-10 mx-auto text-center">
-            <h1 className= "text-white text-2xl md:text-4xl mb-4 font-bold">Classes</h1>
+            <h1 className= "text-white text-xl md:text-xl mb-2 font-bold underline">Classes</h1>
             <p className="text-sm md:text-base text-gray-300"></p>
         </div>
-        <div className = "grid grid-cols-2">
+        <div className = "grid grid-cols-1 lg:grid-cols-2">
             <div className="grid grid-cols-1">
                 <p className="text-sm md:text-base  mb-2 text-white font-bold">Completed Course Work</p>
                 {

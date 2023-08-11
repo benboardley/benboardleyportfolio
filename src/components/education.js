@@ -5,7 +5,7 @@ import { education } from "../data";
 function Education(){
   const [showMore, setShowMore] = useState(false);
   return (
-    <div className=" sm:m-10 m-3 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md p-0 flex flex-col sm:flex-col bg-opacity-70 float-right pr-2">
+    <div className=" lg:m-10 m-3 bg-gray-600 h-auto rounded-lg box-border overflow-auto shadow-md p-0 flex flex-col sm:flex-col bg-opacity-70 sm:float-right pr-2">
       <div className="flex flex-col md:flex-row">
       <div className="mb-4 flex-grow-0 flex-shrink-0 flex flex-col items-center align-middle justify-center">
         <h1 className="text-2xl font-bold underline">

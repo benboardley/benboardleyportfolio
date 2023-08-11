@@ -61,8 +61,8 @@ function App() {
                 </div>
               </div>
               <div id="education">
-              <LangAndSkill />
               <Education />
+              <LangAndSkill />
               {/*<div className="ml-40">
                 <h1 className = " underline text-2xl">Education</h1>
                 <p>I will be finishing my undergraduate degree in Computer Engineering at Purdue University in the spring of 2024. 
