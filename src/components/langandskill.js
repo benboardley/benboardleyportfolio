@@ -34,26 +34,26 @@ export default function LangAndSkill() {
         </div>
         <div className = "grid grid-cols-1 lg:grid-cols-2">
             <div className="grid grid-cols-1">
-                <p className="text-sm md:text-base  mb-2 text-white font-bold">Completed Course Work</p>
+                <p className="text-xs md:text-xs  mb-2 text-white font-bold">Completed Course Work</p>
                 {
                     relevantClasses.map((classwork)=>(
                         <div id={classwork.class} className="">
-                            <span className="text-xs sm:text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-xs sm:text-sm-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-sm sm:text-md text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-xs sm:text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
                             <span className="text-xs sm:text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }
             </div>
             <div className="grid grid-cols-1">
-                <p className="text-xl mb-2 md:text-base text-white font-bold">UpComing Course Work</p>
+                <p className="text-xs mb-2 md:text-xs text-white font-bold">UpComing Course Work</p>
                 {
                     upcomingClasses.map((classwork)=>(
                         <div id={classwork.class} className="">
-                            <span className="text-xs sm:text-sm text-white font-bold mb-2">{classwork.class}</span><br></br>
-                            <span className="text-xs sm:text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
-                            <span className="text-xs sm:text-sm text-gray mb-2"></span>
-                            <span className="text-xs sm:text-sm text-gray mb-2">{classwork.description}</span><br></br>
+                            <span className="text-sm sm:text-md text-white font-bold mb-2">{classwork.class}</span><br></br>
+                            <span className="text-sm sm:text-sm text-gray mb-2">Language: {classwork.language}</span><br></br>
+                            <span className="text-sm sm:text-sm text-gray mb-2"></span>
+                            <span className="text-sm sm:text-sm text-gray mb-2">{classwork.description}</span><br></br>
                         </div>
                     ))
                 }
