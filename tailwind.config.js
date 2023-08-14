@@ -21,9 +21,6 @@ module.exports = {
         '5/8': '62.5vh',
         '3/4': '75vh',
       },
-      backgroundImage: {
-        'background': "url('C:\Users\bboar\OneDrive\Desktop\mySite\ben-boardley\src\background.jpg')",
-      },
     },
   },
   variants: {

@@ -1,13 +1,6 @@
 .App {
   text-align: center;
 }
-.wrapper{
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  justify-content: center;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

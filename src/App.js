@@ -1,14 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from "react"; 
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
-import Languages from "./components/languages"
-import Skills from "./components/skills"
-import Classes from "./components/classes"
 import Resume from "./components/resume"
-import background from "./background.jpg"
 import Blog from "./components/blog"
 import Contact from "./components/contact"
 import Education from './components/education';
@@ -20,11 +15,10 @@ function App() {
   const [activeComponent, setActiveComponent] = useState("BenBoardley");
   useEffect(() => {   // <- Initialize AOS
     AOS.init({
-      duration: 1000,
+      duration: 1500,
       once: true,
     });
   }, []);
-  //bg-[url('background.jpg')] bg-cover  bg-center m-0 bg-fixed min-h-screen
   return (
     <div className="font-serif">
       <NavBar setActiveComponent={setActiveComponent} className="fixed top-0 z-10 w-full" />
@@ -60,7 +54,7 @@ function App() {
                   <About/>
                 </div>
               </div>
-              <div id="education">
+              <div id="education" data-aos="fade-up">
               <Education />
               <LangAndSkill />
               {/*<div className="ml-40">
@@ -77,7 +71,9 @@ function App() {
                 <Classes />
               </div>*/}
               </div>
-              <Projects id = "projects" data-aos="fade-up"/>
+              <div id = "projects" data-aos="fade-up">
+              <Projects/>
+              </div>
               <div id="contact" data-aos="fade-up" className='flex justify-center items-center'>
                 <Contact />
               </div>

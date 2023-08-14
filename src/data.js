@@ -1,10 +1,10 @@
-import lpcvai from './lpcvai.jpg';
-import fullstack from './fullstack.png'
-import compmodel from './compmodel2.png'
-import machinelearning from './machinelearning.jpg'
-import running from './running.jpg'
-import basketball from './basketball.jpg'
-import purdue from './purdue.jpg'
+import lpcvai from './images/lpcvai.jpg';
+import fullstack from './images/fullstack.png'
+import compmodel from './images/compmodel2.png'
+import machinelearning from './images/machinelearning.jpg'
+import running from './images/running.jpg'
+import basketball from './images/basketball.jpg'
+import purdue from './images/purdue.jpg'
 export const projects = [
     {
         title: "Low Power Computer Vision Competition 2023",
@@ -181,6 +181,6 @@ export const education = [
         major: "Computer Engineering",
         image: purdue,
         GPA: "-",
-        years: "2023-2025"
+        years: "2024-2025"
     },
 ]
