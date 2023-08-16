@@ -85,8 +85,11 @@ function App() {
               <Resume />
             </div>
           )}
-    </div>
-
+        <div className='text-center'>
+          <p>&copy; 2023 Benjamin Boardley All rights reserved</p>
+          <p>Built with ReactJS</p>
+        </div>
+      </div>
       </main>
     </div>
   );
