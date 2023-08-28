@@ -22,21 +22,23 @@ function App() {
                 <label for="email">Email</label>
                 <input id="email" type="email" name="email" className="text-black"></input>
             </div>
-            <ValidationError 
-            prefix="Email" 
-            field="email"
-            errors={state.errors}
-            />
+          {//  <ValidationError 
+           // prefix="Email" 
+            //field="email"
+            //errors={state.errors}
+            ///>
+            }
             <div className="flex flex-col">
             <label for="message">Content</label>
             <textarea id ="message" name="message" className="text-black"></textarea>
             </div>
-            <ValidationError 
-            prefix="Message" 
-            field="message"
-            errors={state.errors}
-            />
-            <button className="bg-gray-600 border-2 border-gray-800 w-40 mt-2 rounded-lg"type="submit" disabled={state.submitting}>Send</button>
+            {// <ValidationError 
+            // prefix="Message" 
+            // field="message"
+            // errors={state.errors}
+            // />
+            }
+            <input className="bg-gray-600 border-2 border-gray-800 w-40 mt-2 rounded-lg"type="submit" disabled={state.submitting} value="Send"></input>
         </form>
         </div>
     );
