@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ddb3084.css",
-    "main.js": "/static/js/main.296d6081.js",
+    "main.js": "/static/js/main.9a2bf1cb.js",
     "static/js/787.4619ed62.chunk.js": "/static/js/787.4619ed62.chunk.js",
     "static/media/basketball.jpg": "/static/media/basketball.10ca22d5cb1620b3cd8a.jpg",
     "static/media/background.jpg": "/static/media/background.4260d353abebbd911e32.jpg",
@@ -14,11 +14,11 @@
     "static/media/machinelearning.jpg": "/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
     "index.html": "/index.html",
     "main.9ddb3084.css.map": "/static/css/main.9ddb3084.css.map",
-    "main.296d6081.js.map": "/static/js/main.296d6081.js.map",
+    "main.9a2bf1cb.js.map": "/static/js/main.9a2bf1cb.js.map",
     "787.4619ed62.chunk.js.map": "/static/js/787.4619ed62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ddb3084.css",
-    "static/js/main.296d6081.js"
+    "static/js/main.9a2bf1cb.js"
   ]
 }
