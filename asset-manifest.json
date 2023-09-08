@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ddb3084.css",
-    "main.js": "/static/js/main.9a2bf1cb.js",
+    "main.js": "/static/js/main.54281b0e.js",
     "static/js/787.4619ed62.chunk.js": "/static/js/787.4619ed62.chunk.js",
     "static/media/basketball.jpg": "/static/media/basketball.10ca22d5cb1620b3cd8a.jpg",
     "static/media/background.jpg": "/static/media/background.4260d353abebbd911e32.jpg",
@@ -9,16 +9,16 @@
     "static/media/running.jpg": "/static/media/running.313edc0e17cf462e0363.jpg",
     "static/media/compmodel2.png": "/static/media/compmodel2.dec1357ec952ffe8c2a9.png",
     "static/media/fullstack.png": "/static/media/fullstack.5c105bde5b827e016410.png",
-    "static/media/Resume.pdf": "/static/media/Resume.1a8e0a8fd054df3408b2.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.16e9b70053ff5cb46ae5.pdf",
     "static/media/lpcvai.jpg": "/static/media/lpcvai.169890dd3153ba6ac46a.jpg",
     "static/media/machinelearning.jpg": "/static/media/machinelearning.43f5958a13b3ac44c2fe.jpg",
     "index.html": "/index.html",
     "main.9ddb3084.css.map": "/static/css/main.9ddb3084.css.map",
-    "main.9a2bf1cb.js.map": "/static/js/main.9a2bf1cb.js.map",
+    "main.54281b0e.js.map": "/static/js/main.54281b0e.js.map",
     "787.4619ed62.chunk.js.map": "/static/js/787.4619ed62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ddb3084.css",
-    "static/js/main.9a2bf1cb.js"
+    "static/js/main.54281b0e.js"
   ]
 }
