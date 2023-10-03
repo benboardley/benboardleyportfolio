@@ -5,6 +5,7 @@ import machinelearning from './images/machinelearning.jpg'
 import running from './images/running.jpg'
 import basketball from './images/basketball.jpg'
 import purdue from './images/purdue.jpg'
+import rov from './images/ROV.png'
 export const projects = [
     {
         title: "Low Power Computer Vision Competition 2023",
@@ -17,6 +18,17 @@ export const projects = [
         skills: "System Development, Management, Python, Shell",
         image: lpcvai,
         link: "https://lpcv.ai"
+    },
+    {
+        title: "IEEE Remotley Operated Underwater Vehicles",
+        subtitle: "Software Engineer",
+        description: "I work alongside a group of engineers to create software responsible for controlling a robot in a summer robotics competition.\
+        I am currently helping develop a new user interface for this year's robot. We are developing a UI leveraging PyQt\
+        and I am working on creating a communication pipeline between the ROS2 backend and the information displayed to the vehicle drivers. Previously, I worked\
+        on migrating the code base from ROS to ROS2 and developed nodes for different information transmition such as thrust and tools.",
+        skills: "Robot Operating System (ROS) - Python",
+        image: rov,
+        link: ""
     },
 /*    {
         title:"Social Media App",
